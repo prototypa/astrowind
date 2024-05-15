@@ -1,7 +1,7 @@
 site:
   name: AstroWind
   site: 'https://astrowind.vercel.app'
-  base: '/'
+  base: '/astrowind'
   trailingSlash: false
 
   googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
@@ -44,7 +44,7 @@ apps:
 
     list:
       isEnabled: true
-      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      pathname: '' # Blog main path, you can change this to "articles" (/articles)
       robots:
         index: true
 
